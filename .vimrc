@@ -35,6 +35,6 @@ set incsearch       " Find as you type search
 set ignorecase      " Case insensitive search 
 set smartcase       " ...but case sensitive when uppercase present
 set hlsearch        " Highlight search results
-set shortmess=atOI  " No help Uganda info, and avoid PRESS ENTER prompts
+set shortmess=atOI  " No startup message for empty files, and avoid PRESS ENTER prompts
 
 
