@@ -23,6 +23,8 @@ filetype plugin indent on    " required
 " Settings
 " ========================================================================
 
+colorscheme jellybeans
+
 syntax on           " Syntax highlighting on  			
 set ruler           " Show the ruler
 set laststatus=2    " Always show status line 
