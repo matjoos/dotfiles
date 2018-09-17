@@ -9,7 +9,7 @@ source $VIMRUNTIME/defaults.vim
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead
 else
-  set backup		" keep a backup file (restore to previous version)
+  set backup		  " keep a backup file (restore to previous version)
   if has('persistent_undo')
     set undofile	" keep an undo file (undo changes after closing)
   endif
@@ -50,16 +50,13 @@ endif
 
 set nocompatible 	
 
-syntax on		        " Syntax highlighting on  			
-set ruler 		      " Show the ruler
-set laststatus=2	  " Always show status line 
-set showcmd		      " Show partial commands in status line 
-set showmode 		    " Show current mode in command line
-set number		      " Display line numbers
-set incsearch		    " Find as you type search 
-set ignorecase		  " Case insensitive search 
-set smartcase   	  " ...but case sensitive when uppercase present
-set hlsearch		    " Highlight search terms
-set shortmess=atOI	" No help Uganda info, and avoid PRESS ENTER prompts
-
- 
+syntax on           " Syntax highlighting on  			
+set ruler           " Show the ruler
+set laststatus=2    " Always show status line 
+set showcmd         " Show partial commands in status line 
+set showmode        " Show current mode in command line
+set number          " Display line numbers
+set incsearch       " Find as you type search 
+set ignorecase      " Case insensitive search 
+set smartcase       " ...but case sensitive when uppercase present
+set shortmess=atOI  " No help Uganda info, and avoid PRESS ENTER prompts
